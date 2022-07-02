@@ -38,12 +38,12 @@ npm start
 </p>
 <br />
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/80610295/175773643-289522f3-506f-4bb1-b9f8-72809b8c1c92.png" />
+  <img src="https://user-images.githubusercontent.com/80610295/176997581-a7aa1b4b-be8c-43fd-aef2-ad068fcce5aa.png" />
   <p align="center">Mypage – user</p>
 </p>
 <br />
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/80610295/175773670-89d8950a-7dbf-4ed1-910c-85775bbee982.png" />
+  <img src="https://user-images.githubusercontent.com/80610295/176997547-e77bc020-ce69-47de-8b61-e0b7d9a2fa31.png" />
   <p align="center">Mypage – owner</p>
 </p>
 <br />
