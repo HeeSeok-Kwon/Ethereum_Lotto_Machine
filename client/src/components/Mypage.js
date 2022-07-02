@@ -31,7 +31,7 @@ function Mypage(props) {
             setBalance(result);
             
             try{
-                await window.ethereum.enable();
+                await window.ethereum.request({ method: "eth_requestAccounts" });
             }catch (error){
                 console.log(`error ouccur ${error}`)
             }
@@ -82,6 +82,20 @@ function Mypage(props) {
         }
     }
 
+    const disconnectMetamask = async () => {
+        let result = await window.ethereum.request({
+            method: "wallet_requestPermissions",
+            params: [
+              {
+                eth_accounts: {}
+              }
+            ]
+        });
+        console.log("disconnect");
+        console.log("result: " + result);
+        window.location.href = `/`;
+    }
+
     return (
         <React.Fragment>
             {
@@ -111,11 +125,11 @@ function Mypage(props) {
                             <div class="getcoin-text"><span>테스트 코인을 받고 로또에 응모하세요!</span></div>
                         </div>
                         <div className="details-box">
-                            <button class="unlink-button"><div>연결 해제</div></button>
+                            <button class="unlink-button" onClick={disconnectMetamask}><div>Refresh</div></button>
                         </div>
                     </div>
                 </div>
-                <Link to="/"><div class="re-start"><div>메인으로</div></div></Link>
+                <Link to="/"><div className="re-start"><div>메인으로</div></div></Link>
             </div>
             :
             <div className="myinfo">
@@ -159,7 +173,7 @@ function Mypage(props) {
                             </div>
                         </div>
                         <div className="details-box">
-                            <button class="unlink-button"><div>연결 해제</div></button>
+                            <button class="unlink-button" onClick={disconnectMetamask}><div>Refresh</div></button>
                         </div>
                     </div>
                 </div>

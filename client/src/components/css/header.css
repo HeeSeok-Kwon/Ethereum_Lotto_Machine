@@ -9,6 +9,6 @@ header {display: block; z-index: 100;}
 
 
 #fixed-bar #fixed-bar-wrap .btn-wrap {display: flex; justify-content: space-between; width: 490px; height: 40px;}
-#fixed-bar #fixed-bar-wrap .addr {color: #000000; margin-top: 8px;}
+#fixed-bar #fixed-bar-wrap .addr {color: #000000; margin-top: 8px; margin-right: 5px;}
 #fixed-bar #fixed-bar-wrap a .mypage-button {margin:0;width: 120px;height: 40px; border:1px solid #28A0FF; box-sizing: border-box; border-radius: 6px; font-size: 0; background-color: transparent; cursor: pointer; background-color: #28A0FF;}
 #fixed-bar #fixed-bar-wrap a .mypage-button div {color:#ffffff; font-size: 16px; font-weight: bold; width: 65px; margin: 7.5px auto; }
