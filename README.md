@@ -6,6 +6,10 @@ Blockchain Farm Term Project - Ethereum Lotto Machine Version 1
 - [Ethereum Lotto Machine V2 github](https://github.com/BlockchainFarm-Lotto/Ethereum_Lotto_Machine_V2)
 - Ropsten Testnet is deprecated
 
+## Ethereum Lotto Machine V3 안내
+- Goerli Testnet과 연동한 DApp입니다.
+- [Ethereum Lotto Machine V3 github](https://github.com/BlockchainFarm-Lotto/Ethereum_Lotto_Machine_V3)
+- https://lottocoin.netlify.app/
 
 ## Tools
 - Ganache
